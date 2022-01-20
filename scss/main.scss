@@ -1,0 +1,65 @@
+@import "partial/prueba";
+
+body, .navbar
+{
+  background: rgb(36,0,0);
+  background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(134,50,50,1) 100%);
+  color: white;
+}
+
+.navbar
+{
+  position: fixed;
+  width: 100%;
+  top:1
+}
+
+.row
+{
+  justify-content: center;
+}
+
+h1
+{
+  display:none;
+}
+
+img
+{
+  width: 100%;
+  padding: 1rem;
+}
+
+h2
+{
+  border: solid 8px white;
+  padding: 3rem 8rem;
+  margin: 3rem;
+  color: white;
+}
+
+h3
+{
+  margin: 1rem;
+}
+
+p
+{
+  padding: 1rem;
+}
+
+iframe
+{
+  position: relative;
+  z-index: 0;
+}
+
+form
+{
+  width: 100%;
+  padding: 1rem;
+}
+
+textarea{
+  width: 100%;
+}
