@@ -1,12 +1,13 @@
 body, .navbar {
   background: #240000;
   background: linear-gradient(90deg, #240000 0%, black 35%, #863232 100%);
-  color: white; }
+  background-size: cover;
+  color: white;
+  overflow-x: hidden; }
 
 .navbar {
   position: fixed;
   width: 100%;
-  top: 1;
   z-index: 1000; }
 
 .row {
@@ -24,7 +25,9 @@ h2 {
   border: solid 8px white;
   padding: 3rem 8rem;
   margin: 3rem;
-  color: white; }
+  color: white;
+  width: 100%;
+  text-align: center; }
 
 h3 {
   margin: 1rem; }
