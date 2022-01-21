@@ -17,7 +17,8 @@ h1 {
 
 img {
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-top: 3rem; }
 
 h2 {
   border: solid 8px white;
